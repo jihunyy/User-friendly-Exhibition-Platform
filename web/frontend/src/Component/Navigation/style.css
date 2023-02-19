@@ -1,0 +1,9 @@
+.nav-container .nav-element {
+  display: flex;
+  justify-content: center;
+  /* border: outset; */
+  border: solid;
+  /* border-color: #daa520; */
+  border-color: transparent;
+  border-width: 2px;
+}

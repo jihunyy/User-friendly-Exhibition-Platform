@@ -1,0 +1,95 @@
+.exhibitionInfo-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 100%;
+  width: 100%;
+  max-width: 3000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.exhibitionInfo-container .title-container {
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  margin: 10px;
+}
+.exhibitionInfo-container .date-container {
+  height: 10%;
+  text-align: right;
+}
+.exhibitionInfo-container .author-container {
+  height: 10%;
+  text-align: right;
+  font-size: x-large;
+  margin: 10px;
+}
+.title-badge1 {
+  font-size: 100%;
+  font-weight: bold;
+  color: dimgray;
+}
+.exhibitionInfo-container .tag-badge1 {
+  font-size: x-large;
+  font-weight: bold;
+  color: dimgray;
+  border: dimgray 2px solid;
+  margin: 10px;
+}
+.exhibitionInfo-container .tag-label-container1 {
+  height: 10%;
+}
+
+.exhibitionInfo-container .description-container {
+  border: solid 1px;
+  border-radius: 5px;
+  text-align: left;
+  height: 50%;
+  padding: 2px;
+  margin: 30px;
+}
+.exhibitionInfo-container .heart-container {
+  height: 10%;
+  color: red;
+  text-align: end;
+  font-size: x-large;
+}
+
+.exhibition-img-container {
+  width: 400px;
+  height: 500px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  border-width: 1px;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.exhibition-img-container .img {
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  object-fit: contain;
+  margin-bottom: 0px;
+  object-position: center center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.recommend-container2 {
+  width: 85%;
+  height: 50%;
+  /* max-width: 3000px; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  padding: 20px;
+}

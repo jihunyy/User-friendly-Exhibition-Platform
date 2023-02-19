@@ -1,0 +1,67 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+#    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+    generate-ddl: false
+    hibernate:
+      ddl-auto: update
+
+
+
+  datasource:
+    url: jdbc:mysql://atelier.caejnedfdhpl.ap-northeast-2.rds.amazonaws.com/atelier1
+    username: admin
+    password: dltmddusqkqh12
+    initialization-mode: always
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: caucse.atelier@gmail.com
+    password: dltmddusqkqh12@
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+            required: true
+          auth: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+  mvc:
+    static-path-pattern: /static/**
+
+  servlet:
+    multipart:
+      enabled: true
+      location: /Users/iseung-yeon/Desktop/images
+      maxFileSize: 50MB
+      maxRequestSize: 50MB
+
+jwt:
+  secret: c3ByaW5nLWJvb3Qtc2VjdXJpdHktand0LXR1dG9yaWFsLWppd29vbi1zcHJpbmctYm9vdC1zZWN1cml0eS1qd3QtdHV0b3JpYWwK
+
+server:
+  host: http://localhost:8080
+
+
+cloud:
+  aws:
+    credentials:
+      accessKey: AKIA3NPWIAX7OJ7IF7DK
+      secretKey: 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
+    s3:
+      bucket: atelierbucket
+    region:
+      static: ap-northeast-2
+    stack:
+      auto: false
+
+

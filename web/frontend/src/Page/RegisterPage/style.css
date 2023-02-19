@@ -1,0 +1,10 @@
+.RegisterContainer {
+  border: 1px solid gray;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: white;
+}
